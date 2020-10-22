@@ -6,14 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3513c1dd-37a5-4898-bde7-a3b58e65a2b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EarlyBot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeepSteffen/Generator/telegram_weights.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeepSteffen/allow_gpu_growth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepSteffen/DeepSteffen.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeepSteffen/DeepSteffen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepSteffen/Generator/TelegramWeightsGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeepSteffen/Generator/TelegramWeightsGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepSteffen/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeepSteffen/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeepSteffen/DeepSteffen.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeepSteffen/DeepSteffen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeepSteffen/Generator/TelegramWeightsGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeepSteffen/Generator/TelegramWeightsGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeepSteffen/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EarlyBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/EarlyBot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,58 @@
       <recent name="D:\Development\Workspace\EarlyBot\DeepSteffen\Generator" />
     </key>
   </component>
+  <component name="RunManager" selected="Python.DeepSteffen">
+    <configuration name="DeepSteffen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EarlyBot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/DeepSteffen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/DeepSteffen/DeepSteffen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TelegramWeightsGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EarlyBot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/DeepSteffen/Generator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/DeepSteffen/Generator/TelegramWeightsGenerator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.DeepSteffen" />
+        <item itemvalue="Python.TelegramWeightsGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603355128924</updated>
       <workItem from="1603355130453" duration="1909000" />
+      <workItem from="1603357663321" duration="1930000" />
     </task>
     <servers />
   </component>
@@ -74,5 +129,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EarlyBot$TelegramWeightsGenerator.coverage" NAME="TelegramWeightsGenerator Coverage Results" MODIFIED="1603358303557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/DeepSteffen/Generator" />
+    <SUITE FILE_PATH="coverage/EarlyBot$DeepSteffen.coverage" NAME="DeepSteffen Coverage Results" MODIFIED="1603358651176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/DeepSteffen" />
   </component>
 </project>
