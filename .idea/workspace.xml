@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3513c1dd-37a5-4898-bde7-a3b58e65a2b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepSteffen/DeepSteffen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EarlyBot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepSteffen/DeepSteffen.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeepSteffen/DeepSteffen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepSteffen/Generator/TelegramWeightsGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeepSteffen/Generator/TelegramWeightsGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepSteffen/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeepSteffen/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +37,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\Workspace\EarlyBot\src" />
       <recent name="D:\Development\Workspace\EarlyBot\DeepSteffen\Generator" />
     </key>
   </component>
@@ -61,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603355128924</updated>
-      <workItem from="1603355130453" duration="1371000" />
+      <workItem from="1603355130453" duration="1909000" />
     </task>
     <servers />
   </component>

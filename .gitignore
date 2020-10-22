@@ -1,3 +1,6 @@
+# Ignoring main.py which starts EarlyBot and contains the api key.
+src/main.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
