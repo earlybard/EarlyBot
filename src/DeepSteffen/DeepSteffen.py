@@ -1,13 +1,15 @@
 from textgenrnn import textgenrnn
 from typing import List
 
+from src.DeepSteffen.allow_gpu_growth import allow_gpu_growth
+
 
 class DeepSteffen:
 
     textgen = None
 
     def __init__(self):
-        self.textgen = textgenrnn("my-generated-weights.hdf5")
+        self.textgen = textgenrnn("Generator/telegram_weights.hdf5")
 
     def generate_samples(self):
         self.textgen.generate_samples()
@@ -33,3 +35,8 @@ class DeepSteffen:
         else:
             print("neither")
             return self.textgen.generate(return_as_list=True, max_gen_length=100)
+
+
+if __name__ == '__main__':
+    allow_gpu_growth()
+    DeepSteffen().generate_samples()
